@@ -1,0 +1,33 @@
+<html data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>Markdown View</title>
+    <link rel="stylesheet" type="text/css" href="css/pico.min.css">
+    <link rel="stylesheet" type="text/css" href="css/basic-style.css">
+    <script src="js/mdview-fx.js"></script>
+    <style>
+
+    </style>
+    <script type="application/javascript">
+        function updateContent(content) {
+            const dynamicContent = document.getElementById("dynamic-content");
+            dynamicContent.innerHTML = atob(content);
+        }
+
+    </script>
+</head>
+<body>
+    <main id="md-view" class="container">
+        <div id="dynamic-content"></div>
+    </main>
+    <div>
+        <a href="###"  id="md-copy" data-tooltip="Copy Markdown">
+            <img src="img/copy-md.svg" class="basic-toolbar" />
+        </a>
+        <a href="###" id="html-copy" data-tooltip="Copy HTML">
+            <img src="img/copy-html.svg" class="basic-toolbar" />
+        </a>
+    </div>
+
+</body>
+</html>

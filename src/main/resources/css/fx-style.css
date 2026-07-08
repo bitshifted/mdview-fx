@@ -1,0 +1,32 @@
+
+.export-toolbar {
+    -fx-padding: 0.5em;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.toolbar-button {
+    -fx-font-size: 0.8em;
+}
+
+.icon-pdf {
+    /*-fx-graphic: url("path/to/icon.png");*/
+}
+
+.icon-docx {
+    /*-fx-graphic: url("path/to/icon.png");*/
+}
+
+.icon-md {
+    /*-fx-graphic: url("path/to/icon.png");*/
+}
+
+.toolbar-button-tooltip {
+    -fx-font-size: 1em;
+}
+
+.toolbar-export-indicator {
+    -fx-max-width: 1.5em;
+    -fx-max-height: 1.5em;
+    -fx-min-width: 1.5em;
+    -fx-min-height: 1.5em;
+}
