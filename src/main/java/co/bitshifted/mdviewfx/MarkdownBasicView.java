@@ -84,7 +84,7 @@ public class MarkdownBasicView extends MarkdownView {
     }
     var document = parser.parse(currentMarkdown.get());
     currentHtml.set(renderer.render(document));
-    if(exportTools != null) {
+    if (exportTools != null) {
       exportTools.updateContent(currentMarkdown.get(), currentHtml.get());
     }
     var updateScript =
